@@ -10,7 +10,7 @@ bot = commands.Bot(command_prefix='m', intents=intents)
 
 @bot.event
 async def on_ready():
-    guild = discord.Object(id=915063412998938624)  # Replace with your guild ID
+    guild = discord.Object(id="Your_Guild_Id")  # Replace with your guild ID
     await bot.tree.sync(guild=guild)
     print(f'We have logged in as {bot.user} and synced commands to guild: {guild.id}')
 
