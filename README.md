@@ -9,5 +9,5 @@ by using discord.py
 # I use
 discord.py
 
-#Lisence
+# Lisence
 This project is licensed under the MIT License.
